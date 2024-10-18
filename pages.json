@@ -1,0 +1,130 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "免冠照生成"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "授权"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/create-photo/create-photo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/camera/camera",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/photo-list/index",
+			"style": {
+				"navigationBarTitleText": "证件照列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		{
+			"path": "pages/head-handle/index",
+			"style": {
+				"navigationBarTitleText": "模板选择",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/head-handle/head_down",
+			"style": {
+				"navigationBarTitleText": "姓氏头像",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/img-handle/index",
+			"style": {
+				"navigationBarTitleText": "图片处理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/bbox/index",
+			"style": {
+				"navigationBarTitleText": "百宝箱",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/helpandfeedback/helpandfeedback",
+			"style": {
+				"navigationBarTitleText": "客服帮助",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/helpandfeedback/helpdetail/helpdetail",
+			"style": {
+				"navigationBarTitleText": "问题解答",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "免冠照生成",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+
+		},
+		"renderingMode": "seperated", // 仅微信小程序，webrtc 无法正常时尝试强制关闭同层渲染
+		"pageOrientation": "portrait" //横屏配置，全局屏幕旋转设置(仅 APP/微信/QQ小程序)，支持 auto / portrait / landscape
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"iconfontSrc": "static/iconfont.ttf", // app tabbar 字体.ttf文件路径 app 3.4.4+
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/首页1.png",
+				"selectedIconPath": "static/img/首页2.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/img/我的1.png",
+				"selectedIconPath": "static/img/我的2.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
